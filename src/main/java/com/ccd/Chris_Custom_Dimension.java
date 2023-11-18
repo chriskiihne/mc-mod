@@ -1,21 +1,15 @@
-package com.example;
+package com.ccd;
 
 import net.fabricmc.api.ModInitializer;
-import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
-import net.minecraft.block.Blocks;
-import net.minecraft.item.Items;
-import net.minecraft.util.Identifier;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class ExampleMod implements ModInitializer {
+public class Chris_Custom_Dimension implements ModInitializer {
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
 	// That way, it's clear which mod wrote info, warnings, and errors.
-    public static final Logger LOGGER = LoggerFactory.getLogger("chris_mod");
-	// public static final Block CUSTOM_BLOCK2 = new Block(FabricBlockSettings.create().strength(4f));
-	// public static final Block EXAMPLE_BLOCK2  = new Block(FabricBlockSettings.create().strength(4.0f));
+    public static final Logger LOGGER = LoggerFactory.getLogger("chris_custom_dimension");
 
 	@Override
 	public void onInitialize() {
@@ -24,6 +18,5 @@ public class ExampleMod implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
-
 	}
 }
